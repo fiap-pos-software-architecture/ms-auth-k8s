@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: auth
-        image: NOME DA IMAGEM DO REPOSITORIO DO DOCKERHUB AQUI
+        image: guilhermelimasoares9/hackaton-ms-auth
         ports:
         - containerPort: 3000
         envFrom:
